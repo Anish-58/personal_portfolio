@@ -1,4 +1,4 @@
-# Anish-Portfolio
+# Anish Portfolio
 
 My personal portfolio built using HTML, CSS
 
