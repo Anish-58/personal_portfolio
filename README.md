@@ -12,5 +12,10 @@ Reset stylesheet from [https://meyerweb.com/eric/tools/css/reset/](https://meyer
 
 Fonts used
 
-[Poppins](https://fonts.google.com/?query=poppins)<br>&
-[Kaushan Script](https://fonts.google.com/specimen/Kaushan+Script)
+### Poppins
+
+[https://fonts.google.com/?query=poppins](https://fonts.google.com/?query=poppins)
+
+### Kaushan Script
+
+[https://fonts.google.com/specimen/Kaushan+Script](https://fonts.google.com/specimen/Kaushan+Script)
