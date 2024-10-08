@@ -1,2 +1,114 @@
 @import url(../css/reset.css);
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* varaibles */
+:root{
+    --heading-font-family: "Kaushan Script", cursive;
+    --content-font-family: "Poppins", sans-serif;
+    --primary-text-color: rgb(153,153,153);
+    --heading-text-color: #292929;
+    --gray-bg: #f9f9f9;
+    --link-border-color: #fdd912;
+    --banner-text-color: #ffffff;
+    --body-bg-color: #ffffff;
+    font-size: 10px;
+}
+/* variables end */
+
+body{
+    background-color: var(--body-bg-color);
+    font-family: var(--content-font-family);
+    font-size: 1.5rem;
+    color: var(--primary-text-color);
+    font-weight: 300;
+}
+/* start common styles */
+h1, h2, h3, h4, h5, h6{
+    font-family: var(--heading-font-family);
+    color: var(--heading-text-color);
+    font-weight: 600;
+
+}
+h1, h2{
+    font-family: var(--heading-font-family);
+
+}
+h3, h4, h5, h6{
+    font-family: var(--content-font-family);
+    
+}
+
+h1{
+    font-size: 3.2rem;
+    line-height: 4.6rem;
+}
+h2{
+    font-size: 4.4rem;
+    line-height: 5.6rem;
+    
+}
+
+p{
+    line-height: 2.8rem;
+    letter-spacing: 0.3px;
+}
+
+a{
+    color: var(--primary-text-color);
+    transition: all 0.4s ease 0s;
+    text-decoration: none;
+}
+a:hover{
+    box-shadow: inset 0 -14px 0 #fdd912 ;
+}
+
+.section-outer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 120px 0;
+}
+.section-inner{
+    max-width: 1200px;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* end common styles */
+
+/* start about section  */
+.about-section{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.about-section img{
+    max-width: 360px;
+}
+
+.about-section > div{
+    align-self: flex-start;
+}
+
+.about-section h2{
+    margin: 2.8rem 0;
+    
+}
+
+.about-section p{
+    margin-bottom: 2.8rem;
+}
+.about-section a{
+    text-transform: uppercase;
+    color: var(--heading-text-color);
+    font-size: 1.2rem;
+    letter-spacing: 2.4px;
+    font-weight: 500;
+    box-shadow: inset 0 -6px 0 #fdd912;
+}
+.about-section a:hover{
+    box-shadow: inset 0 -14px 0 #fdd912;
+}
+
+/* end about section  */
